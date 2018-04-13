@@ -1,7 +1,15 @@
 // App.jsx
 import React from "react";
+import Header from "./Header";
+import SimpleAppBar from "./SimpleAppBar";
+
 export default class App extends React.Component {
   render () {
-    return <p> Hello React!</p>;
+    return (
+      <div>
+        <SimpleAppBar />
+        <Header />
+      </div>
+    );
   }
 }

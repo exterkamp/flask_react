@@ -2,3 +2,22 @@ body {
 	margin: 0px;
 	background-color: #eee;
 }
+
+.index_title {
+	font-family: Georgia;
+    font-size: 4em;
+	font-weight: bold;
+	color: #2c3e50;
+	margin-bottom:0px;
+}
+
+.index_title_subtext {
+	color: #7f8c97;
+	font-family: Georgia;
+    font-style: italic;
+    font-size: 2em;
+}
+
+.index_title_container {
+	text-align: center;
+}
